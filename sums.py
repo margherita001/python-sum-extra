@@ -1,7 +1,4 @@
-# Sum any list of numbers
+import numpy as np
 
-def sum_any(list):
-    sum = 0
-    for item in list:
-        sum += item
-    return sum
+def proper_sum(numbers):
+	return np.sum(numbers)
